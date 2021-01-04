@@ -18,8 +18,8 @@ shift.vec <- function(vec, shift) {
 }
 
 #load distances of participants
-link_distances <- "https://pharmaccess.sharepoint.com/sites/AIGHDMoves/Shared%20Documents/General/Distances.csv"
-distances <- read.csv(link_distances, header = TRUE, stringsAsFactors = FALSE)
+link_distances <- "https://raw.githubusercontent.com/Rik9/AIGHD_moves/master/Distances.csv"
+distances <- read.csv(link_distances, header = TRUE, stringsAsFactors = FALSE, sep = ",")
 distances$cumsum_dist <- cumsum(distances$Distance)
 n_participants <- length(unique(distances$Name))
 distance_tot <- sum(distances$Distance)

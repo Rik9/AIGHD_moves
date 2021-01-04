@@ -5,6 +5,6 @@ account: rikol
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 3441655
-bundleId: 4056257
+bundleId: 4056321
 url: https://rikol.shinyapps.io/aighd_moves/
-when: 1609763218.98728
+when: 1609764686.50798
